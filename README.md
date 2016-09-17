@@ -1,7 +1,7 @@
 [![Snap-CI](https://snap-ci.com/Tpbrown/ansible-gocd/branch/master/build_image)](https://snap-ci.com/Tpbrown/ansible-gocd/)
 ATTENTION: 
 =
-This repository was recently transferred from ThoughtWorksInc to Tpbrown.  If you've forked it you'll need to update your remotes (or delete & re-fork). 
+This repository was recently transferred from Tpbrown to prabhu43.  If you've forked it you'll need to update your remotes (or delete & re-fork). 
 
 Apologies for the change -- it was adding confusion around support. (It's not supported ;-)
 
@@ -25,9 +25,9 @@ installation instructions
 This repository is organized as a multi-role playbook. In order to use it in an existing playbook, you must reference the roles as follows:
 ```
 roles:
-  - tpbrown.gocd/roles/common
-  - tpbrown.gocd/roles/agent
-  - tpbrown.gocd/roles/server
+  - prabhu43.gocd/roles/common
+  - prabhu43.gocd/roles/agent
+  - prabhu43.gocd/roles/server
 ```
 
 The default is to install the latest version of the server and agent. To force installation of a specific version override GOCD_GO_VERSION to the desired version.
